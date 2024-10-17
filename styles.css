@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  text-align: center; /* Centralizando o texto */
+}
+
+header {
+  background-color: #8a1e83; /* Cor principal */
+  padding: 20px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza o conteúdo do cabeçalho */
+}
+
+header .logo img {
+  width: 120px;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  color: #8a1e83;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.servicos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Alinhado ao centro */
+  gap: 20px;
+}
+
+.servico {
+  background-color: #e1bde8; /* Cor mais suave para os serviços */
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.galeria-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Alinhado ao centro */
+  gap: 20px;
+}
+
+.galeria-container img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.depoimentos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Alinhado ao centro */
+  gap: 20px;
+}
+
+.depoimento {
+  background-color: #e1bde8;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto; /* Centraliza o formulário */
+}
+
+label {
+  font-weight: bold;
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #8a1e83;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #72146a;
+}
+
+footer {
+  background-color: #8a1e83;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.mapa {
+  margin-top: 20px;
+}
+
+.contato-content a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #8a1e83;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.contato-content a:hover {
+  background-color: #72146a;
+}

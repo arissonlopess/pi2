@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NAIL DESIGNER SANDRINHA</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="logo.jpeg" alt="Logo NAIL DESIGNER SANDRINHA">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#agendamentos">Agendamentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Sobre Mim -->
+        <section id="sobre" tabindex="0">
+            <h1>Bem-vindo ao NAIL DESIGNER SANDRINHA</h1>
+            <p>Sou a Alecsandra, especialista em manicure, pedicure e design de unhas, com anos de experiência em cuidar da beleza e bem-estar das suas mãos e pés. Aqui, cada detalhe importa para proporcionar a você uma experiência única e personalizada.</p>
+            <p>O cuidado com as unhas é essencial para manter a saúde das mãos e pés. Um bom serviço de manicure vai além da estética, ajudando na remoção de células mortas e na prevenção de problemas como unhas encravadas e micose. Aqui no salão, trabalhamos com técnicas modernas e produtos de alta qualidade para garantir que você tenha uma experiência incrível e segura.</p>
+        </section>
+
+        <!-- Seção de Serviços -->
+        <section id="servicos" tabindex="0">
+            <h2>Serviços Oferecidos</h2>
+            <div class="servicos-container">
+                <div class="servico" aria-label="Manicure">
+                    <h3>Manicure</h3>
+                    <p>R$ 30,00</p>
+                </div>
+                <div class="servico" aria-label="Pedicure">
+                    <h3>Pedicure</h3>
+                    <p>R$ 35,00</p>
+                </div>
+                <div class="servico" aria-label="Unhas de Gel">
+                    <h3>Unhas de Gel</h3>
+                    <p>R$ 70,00</p>
+                </div>
+                <div class="servico" aria-label="Design de Unhas">
+                    <h3>Design de Unhas</h3>
+                    <p>R$ 50,00</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Galeria de Fotos -->
+        <section id="galeria" tabindex="0">
+            <h2>Galeria de Fotos</h2>
+            <div class="galeria-container">
+                <img src="mao1.jpeg" alt="Unhas decoradas 1">
+                <img src="mao2.jpeg" alt="Unhas decoradas 2">
+                <img src="mao3.jpeg" alt="Unhas decoradas 3">
+                <img src="mao4.jpeg" alt="Unhas decoradas 4">
+            </div>
+        </section>
+
+        <!-- Seção Depoimentos -->
+        <section id="depoimentos" tabindex="0">
+            <h2>Depoimentos de Clientes</h2>
+            <div class="depoimentos-container">
+                <div class="depoimento" aria-label="Depoimento de Maria Silva">
+                    <p>"Melhor experiência com cuidados para unhas que já tive! Super recomendo."</p>
+                    <span>- Maria Silva</span>
+                </div>
+                <div class="depoimento" aria-label="Depoimento de Júlia Santos">
+                    <p>"Atendimento impecável e unhas perfeitas. A Alecsandra é muito profissional."</p>
+                    <span>- Júlia Santos</span>
+                </div>
+                <div class="depoimento" aria-label="Depoimento de Fernanda Lima">
+                    <p>"Ambiente agradável e ótimo serviço. Voltarei com certeza."</p>
+                    <span>- Fernanda Lima</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Agendamentos -->
+        <section id="agendamentos" tabindex="0">
+            <h2>Agendamentos</h2>
+            <form id="agendamentoForm" aria-label="Formulário de Agendamento">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required aria-required="true">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required aria-required="true">
+
+                <label for="service">Serviço:</label>
+                <select id="service" name="service" required aria-required="true">
+                    <option value="Manicure">Manicure</option>
+                    <option value="Pedicure">Pedicure</option>
+                    <option value="Unhas de Gel">Unhas de Gel</option>
+                    <option value="Design de Unhas">Design de Unhas</option>
+                </select>
+
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date" required aria-required="true">
+
+                <label for="time">Hora:</label>
+                <input type="time" id="time" name="time" required aria-required="true">
+
+                <button type="submit">Agendar</button>
+            </form>
+            <div id="resultado" aria-live="polite"></div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" tabindex="0">
+            <h2>Contato</h2>
+            <div class="contato-content">
+                <p>Entre em contato conosco via WhatsApp ou nos siga no Instagram!</p>
+                <a href="https://wa.me/123456789" target="_blank" aria-label="WhatsApp">WhatsApp</a>
+                <a href="https://www.instagram.com/naildesignersandrinha" target="_blank" aria-label="Instagram">Instagram</a>
+            </div>
+
+            <!-- Mapa do Endereço -->
+            <h3>Localização</h3>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.985834457715!2d-46.658684684475486!3d-23.550520165529154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b8b6e5f887%3A0x53f1f9a0155e4bb9!2sAvenida+Paulista%2C+São+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1607976541348!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 NAIL DESIGNER SANDRINHA. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
